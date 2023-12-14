@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import ComposantReact from "./composant/ComposantReact";
+import Exo29 from "./composant/Exo29";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <ComposantReact couleur={"yellow"} />
+    <Exo29 />
   </React.StrictMode>
 );
 
