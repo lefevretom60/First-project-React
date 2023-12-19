@@ -5,12 +5,14 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Exo29 from "./composant/Exo29";
 import Exo30 from "./composant/Exo30";
+import Exo31 from "./composant/Exo31";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Exo30 />
     <Exo29 />
+    <Exo31 />
   </React.StrictMode>
 );
 
