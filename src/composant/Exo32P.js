@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Exo32E from "./Exo32E";
+import Exo32E from "Exo32E";
 
 function Exo32() {
   const [login, setLogin] = useState("");

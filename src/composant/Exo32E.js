@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Exo32E = ({ login, password }) => {
   const couleur = login && password ? "green" : "transparent";
